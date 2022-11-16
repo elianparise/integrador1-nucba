@@ -130,3 +130,23 @@ main {
     font-size: 40px;
     margin-bottom: 2rem;
 }
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 150px 80px;
+    border: 7px solid red;
+    height: 350px;
+    justify-content: space-between;
+    background: rgba( 255, 224, 27, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13px );
+-webkit-backdrop-filter: blur( 13px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.about-us h2 {
+    font-size: 80px;
+}
