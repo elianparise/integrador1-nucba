@@ -23,6 +23,7 @@ header {
     justify-content: space-evenly;
     background-color: var(--kali-color);
     align-items: center;
+    z-index: 1;
 }
 
 nav {
@@ -131,31 +132,6 @@ main {
     margin-bottom: 2rem;
 }
 
-
-/* pricing cards */
-
-/* .pricing {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 80px;
-    margin-bottom: 100px;
-}
-
-.pricingCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 400px;
-    width: 25%;
-    background-color: #ffe01b;
-    background: rgba( 255, 224, 27, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 6px );
-    -webkit-backdrop-filter: blur( 6px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-} */
-
 /* about us */
 
 .about-us {
@@ -200,4 +176,48 @@ main {
 
 .about-us-container img {
     width: 4rem;
+}
+
+/* pricing cards */
+
+.pricing {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.pricingCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 25%;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+
+.card-top,
+.card-mid,
+.card-bottom{
+    width: 100%;
+    border: 4px solid blue;
+
+}
+
+.card-top {
+    height: 25%;
+}
+
+.card-mid {
+    height: 40%;
+}
+
+.card-bottom {
+    height: 35%;
+    background-image: url(./images/free-icon-transparent.png);
+    background-position: 100% 100%;
+    background-size: 6rem;
+    background-repeat: no-repeat;
+    background-color: ;
 }
