@@ -229,12 +229,13 @@ main {
 
 .card-mid {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 40%;
     border-left: 1px solid black;
     border-right: 1px solid black;
     padding: 1em;
     background-color: white;
+    align-items: center;
 }
 
 
@@ -251,17 +252,16 @@ main {
     border-right: 1px solid black;
 }
 
-.card-mid div:first-child {
+.price-container div:first-child {
     text-align: left;
-    /* border: 3px solid red; */
-}
-
-.card-mid div:nth-child(2) {
     font-size: 3.2rem;
     font-weight: 700;
     justify-content: center;
     /* border: 3px solid red; */
+}
 
+.card-mid div:nth-child(2) {
+    margin-left: 1em;
 }
 
 .card-mid button {
@@ -295,4 +295,8 @@ main {
 
 .card-bottom span {
     padding-left: 1em;
+}
+
+.premium-top {
+    background-color: purple;
 }
