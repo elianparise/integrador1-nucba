@@ -39,6 +39,9 @@ nav ul {
     gap: 1em;
     color: white;
 }
+.nav__link {
+    cursor: pointer;
+}
 
 header img {
     height: 80%;
@@ -183,6 +186,8 @@ main {
 .pricing {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .pricing h2 {
@@ -250,6 +255,16 @@ main {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
+
+#premium-bottom {
+    background-image: url(./images/premium-badge.png);
+}
+
+#enterprise-bottom {
+    background-image: url(./images/enterprise-badge.png);
+    height: fit-content;
+}
+
 
 .price-container div:first-child {
     text-align: left;
