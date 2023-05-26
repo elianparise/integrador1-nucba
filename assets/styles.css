@@ -12,6 +12,7 @@
     --accent-color-1: #ffe01b;
 }
 
+
 header {
     display: flex;
     position: fixed;
@@ -323,3 +324,59 @@ main {
 .enterprise-bottom {
     height: auto;
 }
+
+/* EXPLANATION STUFF */
+
+
+
+.explain-kali {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.explanationText-container {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.explanationText-container > * {
+    /* border: 2px solid red; */
+}
+
+.explanationText-container > h2 {
+    font-size: 3rem;
+}
+
+.explanationText-container > div {
+    font-size: 1.3rem;
+}
+
+#wikipedia-link {
+    text-decoration: none;
+    color: blue;
+}
+
+#wikipedia-link:hover {
+    color: #ffe01b;
+}
+
+
+
+.explain-imageContainer {
+    display: flex;
+    /* border: 8px solid green;     */
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+#manHacking {
+    width: 550px;
+    border-radius: 5%;
+}
+
