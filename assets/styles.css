@@ -380,3 +380,28 @@ main {
     border-radius: 5%;
 }
 
+/* CONTACT SECTION */
+
+.contact {
+    display: flex;
+    /* border: 10px solid red; */
+    justify-content: space-around;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.contact-text a {
+    text-decoration: none;
+    color: blue;
+}
+
+.mapa {
+    height: 500px;   
+}
+
