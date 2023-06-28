@@ -12,6 +12,11 @@
     --accent-color-1: #ffe01b;
 }
 
+main {
+    top: 70px;
+
+}
+
 
 header {
     display: flex;
@@ -79,9 +84,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 12px solid red; */
+    border: 12px solid red;
     background: rgb(85,143,244);
     background: linear-gradient(180deg, rgba(85,143,244,1) 0%, rgba(255,255,255,1) 20%);
+    height: calc(100vh - 70px);
+
 }
 
 .hero-container {
@@ -90,6 +97,7 @@ main {
     margin: 20px;
     /* border: 12px solid yellow; */
     justify-content: space-between;
+    height: fit-content;
 }
 
 .hero-text {
